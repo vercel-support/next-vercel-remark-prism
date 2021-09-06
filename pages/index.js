@@ -1,4 +1,4 @@
-import unified from "unified";
+import { unified } from "unified";
 import parse from "remark-parse";
 import prism from "remark-prism";
 import Head from "next/head";
