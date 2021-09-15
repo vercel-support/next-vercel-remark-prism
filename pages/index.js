@@ -89,5 +89,5 @@ export const getStaticProps = () => {
   `;
   const ast = parseMarkdown(markdown);
 
-  return { props: { ast }, revalidate: 30 };
+  return { props: { ast }, revalidate: 5 };
 };
